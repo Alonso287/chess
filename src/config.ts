@@ -9,13 +9,14 @@ export const SITE = {
   postPerIndex: 4,
   postPerPage: 4,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
-  showArchives: true,
+  showArchives: false,
   showBackButton: true, // show back button in post detail
   editPost: {
     enabled: false,
     text: "Sugerir cambios",
     url: "https://github.com/Alonso287/chess/edit/main/",
   },
+  showTags: false,
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
   lang: "es", // html lang code. Set this empty and default will be "en"
