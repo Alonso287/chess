@@ -27,10 +27,10 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         Mi Devlog de desarrollo de ChessLabs, donde iré actualizando mi progreso con el motor de ajedrez.
       </p>
       <p class="mt-2">
-        Puedes encontrar el código fuente en mi 
+        Puedes encontrar el código fuente de la página y del motor en el
         <LinkButton
           class="underline decoration-dashed underline-offset-4 hover:text-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
+          href="https://github.com/Alonso287/chess"
         >
           repositorio de GitHub
         </LinkButton>.
@@ -68,7 +68,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     {
       recentPosts.length > 0 && (
         <section id="recent-posts" class="pt-12 pb-6">
-          <h2 class="text-2xl font-semibold tracking-wide">DevLogs</h2>
+          <h2 class="text-2xl font-semibold tracking-wide">Devlogs</h2>
           <ul>
             {recentPosts.map(
               (data, index) =>
@@ -80,7 +80,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     }
 
     <div class="my-8 text-center">
-      <LinkButton href="/posts/">
+      <LinkButton href="/devlogs/">
         Ver todos
         <IconArrowRight class="inline-block rtl:-rotate-180" />
       </LinkButton>
