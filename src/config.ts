@@ -13,6 +13,8 @@ export const SITE = {
   showBackButton: true, // show back button in post detail
   editPost: {
     enabled: false,
+    text: "Sugerir cambios",
+    url: "https://github.com/Alonso287/chess/edit/main/",
   },
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
