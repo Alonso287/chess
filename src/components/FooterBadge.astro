@@ -1,0 +1,21 @@
+---
+import LinkButton from "./LinkButton.astro";
+import IconAI from "@/assets/icons/ai.svg";
+
+const {
+  href = "https://notbyai.fyi/es",
+  title = "Contenido escrito por un humano",
+  size = 28, // altura independiente, pero con el mismo comportamiento que otros botones de socials
+} = Astro.props;
+---
+
+<LinkButton
+  href={href}
+  title={title}
+  class="group p-2 sm:p-1"
+>
+  <IconAI
+    style={`width: ${size}px; height: ${size}px;`}
+  />
+  <span class="sr-only">{title}</span>
+</LinkButton>
