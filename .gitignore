@@ -1,28 +1,31 @@
 # build output
-dist/
+devlog/dist/
 
 # generated types
-.astro/
+devlog/.astro/
 
 # dependencies
-node_modules/
+devlog/node_modules/
 
 # logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+devlog/npm-debug.log*
+devlog/yarn-debug.log*
+devlog/yarn-error.log*
+devlog/pnpm-debug.log*
 
 # environment variables
-.env
-.env.production
+devlog/.env
+devlog/.env.production
 
 # macOS-specific files
 .DS_Store
 
 # jetbrains setting folder
-.idea/
+devlog/.idea/
 
 # pagefind
+devlog/public/pagefind
 
-public/pagefind
+.vscode/
+
+.vercel/
