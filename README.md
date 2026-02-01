@@ -8,4 +8,4 @@ Este repositorio utiliza **licencias diferentes según el tipo de contenido**:
 
 - **Contenido del devlog** (artículos, texto, imágenes y explicaciones):
   Licenciado bajo **[Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**.  
-  Consulta [`devlog/LICENSE`](https://github.com/Alonso287/chess/blob/master/LICENSE-devlog).
+  Consulta [`LICENSE-devlog`](https://github.com/Alonso287/chess/blob/master/LICENSE-devlog).
